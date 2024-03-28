@@ -32,7 +32,7 @@
    - Admin users have privileged access, allowing them to view both public and private user profiles for administrative purposes.
 
 #### 10. Public Profile Access
-    - Normal users are limited to viewing only public user profiles, ensuring privacy settings are respected.
+   - Normal users are limited to viewing only public user profiles, ensuring privacy settings are respected.
 
 
 ## Technologies Used
