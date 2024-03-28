@@ -51,11 +51,11 @@
 ## Usage
 
 ### 1. Create Account Operation
-#### Endpoint: POST /api/auth/register [ Returns JWT ]
+#### Endpoint: POST /api/auth/register [ Returns JWT Token ]
 Description: Allows users to create a new account.
 
 ### 2. Log In Operation
-#### Endpoint: POST /api/auth/signIn [ Returns JWT ]
+#### Endpoint: POST /api/auth/signIn [ Returns JWT Token ]
 Description: Allows users to log in to their accounts.
 
 ### 3. Sign Out Operation
