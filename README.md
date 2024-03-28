@@ -95,5 +95,7 @@ Description: Retrieves user profiles. Admin users have access to both public and
 #### Step 4. npm run start:dev
 
 ## Note : 
-#### 1. Also attached the postman collection in drive as well as in repository for this service for ease of usage, you can directly import the collection. 
+
+### 1. No need to connect to mongoDB or run migration script because, this service is connected to my account's free tier atlas.
+### 2. Also attached the postman collection in drive as well as in repository for this service for ease of usage, you can directly import the collection. 
 [ https://drive.google.com/file/d/1cmphhsAwIHXHdS5SLWmUoxNtY296D9Le/view?usp=sharing ]
