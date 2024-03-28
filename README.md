@@ -1,5 +1,5 @@
 # Backend API for User Authentication and Profile Management
-## This repository contains the backend API for an authentication system with profile management features. Users can register, log in, and manage their profiles, including setting them as public or private. Admin users have access to both public and private profiles, while normal users can only view public profiles.
+### This repository contains the backend API for an authentication system with profile management features. Users can register, log in, and manage their profiles, including setting them as public or private. Admin users have access to both public and private profiles, while normal users can only view public profiles.
 
 
 ## Features
@@ -87,6 +87,7 @@ Description: Retrieves user profiles. Admin users have access to both public and
 
 ## Steps to run the service
 
-#### Step 1. git clone 
-#### Step 2. npm i (to install all the necessary modules / packages)
-#### Step 3. npm run start:dev
+#### Step 1. git clone https://github.com/sagarp4/enhanced-auth-service.git
+#### Step 2. Switch to master branch, if not in master.
+#### Step 3. npm i (to install all the necessary modules / packages)
+#### Step 4. npm run start:dev
