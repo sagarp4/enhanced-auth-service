@@ -84,6 +84,8 @@ Description: Allows users to set their profile visibility as public or private.
 #### Endpoint: GET /api/user-service/getAllProfiles [ JWT token required for doing this operation ]
 Description: Retrieves user profiles. Admin users have access to both public and private profiles.
 
+## Deployment
+#### I have deployed this service in Render Platform (render.io)
 
 ## Steps to run the service
 
@@ -91,7 +93,6 @@ Description: Retrieves user profiles. Admin users have access to both public and
 #### Step 2. Switch to master branch, if not in master.
 #### Step 3. npm i (to install all the necessary modules / packages)
 #### Step 4. npm run start:dev
-#### Step 5. Make sure to start your local mongoDB server / install the mongoDB extension in you VS Code.
 
 ## Note : 
 #### 1. Also attached the postman collection in drive as well as in repository for this service for ease of usage, you can directly import the collection. 
