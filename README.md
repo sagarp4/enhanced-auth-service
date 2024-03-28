@@ -85,7 +85,8 @@ Description: Allows users to set their profile visibility as public or private.
 Description: Retrieves user profiles. Admin users have access to both public and private profiles.
 
 ## Deployment
-#### I have deployed this service in Render Platform (render.io)
+### I have deployed this service in Render Platform (render.io)
+#### So the base url for this service is : https://enhanced-auth-service.onrender.com
 
 ## Steps to run the service
 
@@ -97,5 +98,4 @@ Description: Retrieves user profiles. Admin users have access to both public and
 ## Note : 
 
 ### 1. No need to connect to mongoDB or run migration script because, this service is connected to my account's free tier atlas.
-### 2. Also attached the postman collection in drive as well as in repository for this service for ease of usage, you can directly import the collection. 
-[ https://drive.google.com/file/d/1cmphhsAwIHXHdS5SLWmUoxNtY296D9Le/view?usp=sharing ]
+### 2. Also attached the postman collection in drive as well as in repository for this service for ease of usage, you can directly import the collection : https://drive.google.com/file/d/1cmphhsAwIHXHdS5SLWmUoxNtY296D9Le/view?usp=sharing
