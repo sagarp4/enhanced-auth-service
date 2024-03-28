@@ -86,8 +86,9 @@ Description: Retrieves user profiles. Admin users have access to both public and
 
 ## Deployment
 ### I have deployed this service in Render Platform (render.io)
-#### So the base url for this service is : https://enhanced-auth-service.onrender.com
-#### Use this base url, instead of using http://localhost:3000/
+#### So the base url for this service is : 
+      - https://enhanced-auth-service.onrender.com
+#### Use this above base url, instead of using http://localhost:3000/
 
 ## Steps to run the service
 
