@@ -46,3 +46,43 @@
       - Swagger is used to generate Data Transfer Objects (DTOs) that define the structure of data exchanged between the client and server. These DTOs help ensure consistency and clarity in data communication.
 #### ● Other NestJS Modules : 
       - Various NestJS modules may have been utilized for routing, validation, error handling, etc.
+
+
+## Usage
+
+### 1. Create Account Operation
+#### Endpoint: POST api/auth/register
+Description: Allows users to create a new account.
+
+### 2. Log In Operation
+#### Endpoint: POST api/auth/signIn
+Description: Allows users to log in to their accounts.
+
+### 3. Sign Out Operation
+#### Endpoint: POST /signOut
+Description: Allows users to sign out securely.
+
+### 4. Profile Data Retrieval Operation
+#### Endpoint: GET /profileData
+Description: Retrieves profile details for the authenticated user.
+
+### 5. Update Profile Details Operation
+#### Endpoint: PUT /updateProfileDetails
+Description: Allows users to update their profile information.
+
+### 6. Add Image or URL Operation
+#### Endpoints:
+- POST /addImage
+- POST /addUrl
+Description: Enables users to upload a new photo or provide an image URL for their profile picture.
+
+### 7. Change Profile View Operation ( Public / Private )
+#### Endpoint: PUT /changeProfileView
+Description: Allows users to set their profile visibility as public or private.
+
+## Admin Endpoints / Normal User Endpoints
+
+### 1. Get Profiles Operation ( This will dynamically handle whether to show all profiles or only public profiles based on the token passed on the header )
+#### Endpoint: GET /api/user-service/getAllProfiles
+Description: Retrieves user profiles. Admin users have access to both public and private profiles.
+
