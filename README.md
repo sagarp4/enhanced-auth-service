@@ -1,18 +1,14 @@
-## Backend API for User Authentication and Profile Management
-### This repository contains the backend API for an authentication system with profile management features. Users can register, log in, and manage their profiles, including setting them as public or private. Admin users have access to both public and private profiles, while normal users can only view public profiles.
+# Backend API for User Authentication and Profile Management
+## This repository contains the backend API for an authentication system with profile management features. Users can register, log in, and manage their profiles, including setting them as public or private. Admin users have access to both public and private profiles, while normal users can only view public profiles.
 
 
-### User Stories
-
-#### • As a user, I can register a new account.
-#### • As a user, I can log in.
-#### • As a user, I can log in or register with at least one of the following services: Google, Facebook, Twitter, or GitHub.
-#### • As a user, I can sign out.
-#### • As a user, I can see my profile details.
-#### • As a user, I can edit my details including: photo, name, bio, phone, email, and password.
-#### • As a user, I can upload a new photo or provide an image URL.
-#### • As a user, I can choose to make my profile public or private.
-#### • As an admin user, I can see both public and private user profiles.
-#### • As a normal user, I can only see public user profiles.
+## Features
 
 
+## Technologies Used
+
+#### ● NestJS : A progressive Node.js framework for building efficient, reliable, and scalable server-side applications.
+#### ● MongoDB : A document-oriented NoSQL database used for storing and managing data.
+#### ● JWT Module : Used for implementing JWT authentication and securing API endpoints.
+**DTO Generation**: Swagger is used to generate Data Transfer Objects (DTOs) that define the structure of data exchanged between the client and server. These DTOs help ensure consistency and clarity in data communication.
+#### ● Other NestJS Modules : Various NestJS modules may have been utilized for routing, validation, error handling, etc.
