@@ -51,37 +51,37 @@
 ## Usage
 
 ### 1. Create Account Operation
-#### Endpoint: POST /api/auth/register
+#### Endpoint: POST /api/auth/register [ Returns JWT ]
 Description: Allows users to create a new account.
 
 ### 2. Log In Operation
-#### Endpoint: POST /api/auth/signIn
+#### Endpoint: POST /api/auth/signIn [ Returns JWT ]
 Description: Allows users to log in to their accounts.
 
 ### 3. Sign Out Operation
-#### Endpoint: POST /api/auth/signOut
+#### Endpoint: POST /api/auth/signOut 
 Description: Allows users to sign out securely.
 
 ### 4. Profile Data Retrieval Operation
-#### Endpoint: GET /api/user-service/myProfile
+#### Endpoint: GET /api/user-service/myProfile [ JWT token required for doing this operation ]
 Description: Retrieves profile details for the authenticated user.
 
 ### 5. Update Profile Details Operation
-#### Endpoint: PUT /api/user-service/updateProfile
+#### Endpoint: PUT /api/user-service/updateProfile [ JWT token required for doing this operation ]
 Description: Allows users to update their profile information.
 
 ### 6. Add Image or URL Operation
-#### Endpoints: POST /addImage ( This will accept both image url / image file )
+#### Endpoints: POST /addImage ( This will accept both image url / image file ) [ JWT token required for doing this operation ]
 Description: Enables users to upload a new photo or provide an image URL for their profile picture.
 
 ### 7. Change Profile View Operation ( Public / Private )
-#### Endpoint: PUT /api/user-service/updateVisibility
+#### Endpoint: PUT /api/user-service/updateVisibility [ JWT token required for doing this operation ]
 Description: Allows users to set their profile visibility as public or private.
 
 ### Admin Endpoints / Normal User Endpoints
 
 ### 1. Get Profiles Operation ( This will dynamically handle whether to show all profiles or only public profiles based on the token passed on the header )
-#### Endpoint: GET /api/user-service/getAllProfiles
+#### Endpoint: GET /api/user-service/getAllProfiles [ JWT token required for doing this operation ]
 Description: Retrieves user profiles. Admin users have access to both public and private profiles.
 
 
