@@ -91,3 +91,4 @@ Description: Retrieves user profiles. Admin users have access to both public and
 #### Step 2. Switch to master branch, if not in master.
 #### Step 3. npm i (to install all the necessary modules / packages)
 #### Step 4. npm run start:dev
+#### Step 5. Make sure to start your local mongoDB server / install the mongoDB extension in you VS Code.
