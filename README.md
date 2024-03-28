@@ -90,7 +90,7 @@ Description: Retrieves user profiles. Admin users have access to both public and
     https://enhanced-auth-service.onrender.com
 #### Use this above base url, instead of using http://localhost:3000/
 
-## Steps to run the service
+## Steps to run the service ( In Local )
 
 #### Step 1. git clone https://github.com/sagarp4/enhanced-auth-service.git
 #### Step 2. Switch to master branch, if not in master.
