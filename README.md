@@ -51,33 +51,31 @@
 ## Usage
 
 ### 1. Create Account Operation
-#### Endpoint: POST api/auth/register
+#### Endpoint: POST /api/auth/register
 Description: Allows users to create a new account.
 
 ### 2. Log In Operation
-#### Endpoint: POST api/auth/signIn
+#### Endpoint: POST /api/auth/signIn
 Description: Allows users to log in to their accounts.
 
 ### 3. Sign Out Operation
-#### Endpoint: POST /signOut
+#### Endpoint: POST /api/auth/signOut
 Description: Allows users to sign out securely.
 
 ### 4. Profile Data Retrieval Operation
-#### Endpoint: GET /profileData
+#### Endpoint: GET /api/user-service/myProfile
 Description: Retrieves profile details for the authenticated user.
 
 ### 5. Update Profile Details Operation
-#### Endpoint: PUT /updateProfileDetails
+#### Endpoint: PUT /api/user-service/updateProfile
 Description: Allows users to update their profile information.
 
 ### 6. Add Image or URL Operation
-#### Endpoints:
-- POST /addImage
-- POST /addUrl
+#### Endpoints: POST /addImage ( This will accept both image url / image file )
 Description: Enables users to upload a new photo or provide an image URL for their profile picture.
 
 ### 7. Change Profile View Operation ( Public / Private )
-#### Endpoint: PUT /changeProfileView
+#### Endpoint: PUT /
 Description: Allows users to set their profile visibility as public or private.
 
 ## Admin Endpoints / Normal User Endpoints
