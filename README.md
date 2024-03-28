@@ -10,8 +10,8 @@
 #### 2. Login Functionality
    - Registered users can securely log in to their accounts.
 
-#### 3. Social Media Integration
-   - Users have the flexibility to log in or register using popular social media services such as Google, Facebook, Twitter, or GitHub.
+#### 3. Social Media Authentication
+   - Unfortunately, due to time constraints, integration of social media authentication services such as Google, Facebook, Twitter, or GitHub has not been implemented in this version of the project. While this feature enhances user convenience and accessibility, it requires additional setup and configuration. It's worth noting that services like Passport package in NestJS provide robust support for integrating social media authentication, which can be explored in future iterations of the project.
 
 #### 4. Logout Capability
    - Users can safely sign out of their accounts when they're done using the platform.
@@ -33,7 +33,6 @@
 
 #### 10. Public Profile Access
    - Normal users are limited to viewing only public user profiles, ensuring privacy settings are respected.
-
 
 ## Technologies Used
 
