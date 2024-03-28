@@ -80,7 +80,7 @@ Description: Allows users to set their profile visibility as public or private.
 
 ### Admin Endpoints / Normal User Endpoints
 
-### 1. Get Profiles Operation ( This will dynamically handle whether to show all profiles or only public profiles based on the token passed on the header )
+### 1. Get Profiles Operation [ This will dynamically handle whether to show all profiles or only public profiles by decoding the JWT token passed on the header ]
 #### Endpoint: GET /api/user-service/getAllProfiles [ JWT token required for doing this operation ]
 Description: Retrieves user profiles. Admin users have access to both public and private profiles.
 
