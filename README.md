@@ -75,7 +75,7 @@ Description: Allows users to update their profile information.
 Description: Enables users to upload a new photo or provide an image URL for their profile picture.
 
 ### 7. Change Profile View Operation ( Public / Private )
-#### Endpoint: PUT /
+#### Endpoint: PUT /api/user-service/updateVisibility
 Description: Allows users to set their profile visibility as public or private.
 
 ## Admin Endpoints / Normal User Endpoints
@@ -84,3 +84,9 @@ Description: Allows users to set their profile visibility as public or private.
 #### Endpoint: GET /api/user-service/getAllProfiles
 Description: Retrieves user profiles. Admin users have access to both public and private profiles.
 
+
+## Steps to run the service
+
+#### Step 1. git clone 
+#### Step 2. npm i (to install all the necessary modules / packages)
+#### Step 3. npm run start:dev
