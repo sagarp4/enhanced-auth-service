@@ -92,3 +92,7 @@ Description: Retrieves user profiles. Admin users have access to both public and
 #### Step 3. npm i (to install all the necessary modules / packages)
 #### Step 4. npm run start:dev
 #### Step 5. Make sure to start your local mongoDB server / install the mongoDB extension in you VS Code.
+
+## Note : 
+#### 1. Also attached the postman collection in drive as well as in repository for this service for ease of usage, you can directly import the collection. 
+[ https://drive.google.com/file/d/1cmphhsAwIHXHdS5SLWmUoxNtY296D9Le/view?usp=sharing ]
