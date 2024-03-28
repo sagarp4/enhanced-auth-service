@@ -78,7 +78,7 @@ Description: Enables users to upload a new photo or provide an image URL for the
 #### Endpoint: PUT /api/user-service/updateVisibility
 Description: Allows users to set their profile visibility as public or private.
 
-## Admin Endpoints / Normal User Endpoints
+### Admin Endpoints / Normal User Endpoints
 
 ### 1. Get Profiles Operation ( This will dynamically handle whether to show all profiles or only public profiles based on the token passed on the header )
 #### Endpoint: GET /api/user-service/getAllProfiles
